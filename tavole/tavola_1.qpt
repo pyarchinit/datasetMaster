@@ -1,0 +1,218 @@
+<Composer title="Layout 1" visible="1">
+ <ComposerLegend symbolWidth="7" title="Legenda" boxSpace="2" titleFont="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" groupFont="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" layerFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="pyarchinit_quote_view20130314123859656" text="pyarchinit_quote_view">
+    <VectorClassificationItemNg text="">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+       <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="180"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="name" v="equilateral_triangle"/>
+        <prop k="offset" v="0,2"/>
+        <prop k="size" v="3"/>
+       </layer>
+       <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="90"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="name" v="line"/>
+        <prop k="offset" v="-3,3"/>
+        <prop k="size" v="8"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="pyarchinit_us_view20130314123858638" text="pyarchinit_us_view">
+    <VectorClassificationItemNg text="Fase 1">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="57,87,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="Fase 2">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="255,85,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="Fase 3">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="255,170,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="pyarchinit_strutture_ipotesi20130313114621528" text="pyarchinit_strutture_ipotesi">
+    <VectorClassificationItemNg text="Alloggio per mobilio">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="LinePatternFill" locked="0">
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="distance" v="5"/>
+        <prop k="lineangle" v="45"/>
+        <prop k="linewidth" v="0.5"/>
+        <prop k="offset" v="0"/>
+       </layer>
+      </symbol>
+      <symbol outputUnit="MM" alpha="1" type="line" name="@classificationSymbol@0">
+       <layer pass="0" class="SimpleLine" locked="0">
+        <prop k="capstyle" v="square"/>
+        <prop k="color" v="0,0,0,255"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="joinstyle" v="bevel"/>
+        <prop k="offset" v="0"/>
+        <prop k="penstyle" v="solid"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="width" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="Focoolare">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="199,220,239,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="diagonal_x"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="Muri perimetrali">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="240,151,7,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="dense7"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="Pilastro">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="184,172,140,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="dense5"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="54" x="11.7323" y="24.8724" rotation="0" height="98.2" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <ComposerPicture pictureWidth="20" file="../../../../../../OSGeo4W/apps/qgis/svg/north_arrows/NorthArrow2.svg" pictureHeight="20" mapId="-1">
+  <ComposerItem width="20" x="24.8724" y="241.216" rotation="0" height="20" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerPicture>
+ <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="0.5" markerMode="1">
+  <ArrowColor alpha="255" red="0" blue="0" green="0"/>
+  <StartPoint x="6.10079" y="14.0787"/>
+  <StopPoint x="410.63" y="14.0787"/>
+  <ComposerItem width="405.029" x="5.85079" y="13.8287" rotation="0" height="0.5" frame="true" outlineWidth="0" zValue="3" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerArrow>
+ <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="0.08" markerMode="1">
+  <ArrowColor alpha="255" red="0" blue="0" green="0"/>
+  <StartPoint x="71.8016" y="20.1795"/>
+  <StopPoint x="71.8016" y="280.636"/>
+  <ComposerItem width="0.08" x="71.7616" y="20.1395" rotation="0" height="260.537" frame="true" outlineWidth="0" zValue="6" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerArrow>
+ <ComposerLabel valign="32" labelText="Tavola 1 - Scavo del Sito archeologico" halign="1" margin="1">
+  <LabelFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="148.296" x="6.57008" y="5.6315" rotation="0" height="7.97795" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <ComposerShape shapeType="1" shapeWidth="409.222" outlineWidth="0.6" transparentFill="1" shapeHeight="286.737">
+  <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+  <FillColor alpha="255" red="0" blue="0" green="0"/>
+  <ComposerItem width="409.222" x="5.1622" y="3.75433" rotation="0" height="286.737" frame="true" outlineWidth="0" zValue="2" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerShape>
+ <ComposerShape shapeType="1" shapeWidth="412.759" outlineWidth="0.1" transparentFill="1" shapeHeight="290.681">
+  <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+  <FillColor alpha="255" red="0" blue="0" green="0"/>
+  <ComposerItem width="412.759" x="3.50207" y="2.62656" rotation="0" height="290.681" frame="true" outlineWidth="0" zValue="1" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="0" red="255" blue="255" green="255"/>
+   <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerShape>
+ <ComposerScaleBar segmentMillimeters="19.3701" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="0.5">
+  <BrushColor red="0" blue="0" green="0"/>
+  <ComposerItem width="49.7402" x="11.7323" y="264.211" rotation="0" height="12.2" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="2.13087" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerScaleBar>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="4.88152e+06" xmin="2.32224e+06" ymax="4.88153e+06" xmax="2.32225e+06"/>
+  <LayerSet>
+   <Layer>pyarchinit_quote_view20130314123859656</Layer>
+   <Layer>pyarchinit_us_view20130314123858638</Layer>
+   <Layer>pyarchinit_strutture_ipotesi20130313114621528</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="328.937" x="77" y="25" rotation="0" height="255" frame="true" outlineWidth="0.2" zValue="10" lastValidViewScaleFactor="2.13087" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <Composition printResolution="300" paperWidth="420" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+</Composer>
